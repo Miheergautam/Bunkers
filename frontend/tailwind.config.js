@@ -7,10 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rihno: '#343f71',
-        twilight: '#e9d8e4',
-        pomegranate: '#f34c19',
-        supernova: '#fbc40e',
+        morningsky: '#cae4db',
+        honey: '#dcae1d',
+        cerulean: '#00303f',
+        mist: '#7a9d96',
+      },
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'],
       },
     },
   },
