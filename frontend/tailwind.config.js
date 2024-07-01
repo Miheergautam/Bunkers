@@ -12,6 +12,7 @@ module.exports = {
         'deep-teal': '#00303F',
         'mist': '#7A9D96',
       },
+
     },
   },
   plugins: [],
