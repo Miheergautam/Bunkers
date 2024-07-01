@@ -1,9 +1,11 @@
-// src/App.jsx
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './components/pages/HomePage';
-import Adminhome from './components/pages/admin/Adminhome';
-import UserHome from './components/pages/user/UserHome';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import HomePage from "./pages/HomePage";
+import Adminhome from "./pages/admin/Adminhome";
+import UserHome from "./pages/user/UserHome";
+import SignIn from "./pages/SignIn";
+
 const App = () => {
   return (
     <Router>
@@ -11,6 +13,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/admin" element={<Adminhome />} />
         <Route path="/user" element={<UserHome />} />
+        <Route path="/sign-in" element={<SignIn />} />
       </Routes>
     </Router>
   );
