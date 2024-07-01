@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import Adminhome from "./pages/admin/Adminhome";
 import UserHome from "./pages/user/UserHome";
 import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/admin" element={<Adminhome />} />
         <Route path="/user" element={<UserHome />} />
         <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
       </Routes>
     </Router>
   );

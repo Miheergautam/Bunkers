@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Universities from './Universities';
-import Footer from './Footer';
+import Navbar from '../components/HomePageComponent/Navbar';
+import Universities from '../components/HomePageComponent/Universities';
+import Footer from '../components/HomePageComponent/Footer';
 
 const HomePage = () => {
   return (
