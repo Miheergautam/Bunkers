@@ -6,12 +6,14 @@ import Adminhome from "./pages/admin/Adminhome";
 import UserHome from "./pages/user/UserHome";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
+import About from "./pages/About";
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
         <Route path="/admin" element={<Adminhome />} />
         <Route path="/user" element={<UserHome />} />
         <Route path="/sign-in" element={<SignIn />} />

@@ -24,17 +24,17 @@ function AdminNavbar() {
   };
 
   return (
-    <div className="flex items-center justify-between bg-cerulean text-white p-4">
+    <div className="flex items-center justify-between bg-deep-teal text-white p-4">
       {/* Left Side - Hamburger Menu */}
       <div>
         <button onClick={toggleMenu} className="text-xl text-white">
           <GiHamburgerMenu className='text-2xl' />
-          <div className={`absolute left-0 text-white bg-cerulean h-full p-3 mt-2 transform transition-all ease-in-out ${menuOpen ? 'w-80' : 'w-15'}`}>
-            <a href="#" className="block p-2 hover:bg-white hover:text-cerulean rounded-md">{menuOpen ? "Dashboard" : <MdDashboard />}</a>
-            <a href="#" className="block p-2 hover:bg-white hover:text-cerulean rounded-md">{menuOpen ? "Hostel" : <HiBuildingOffice />}</a>
-            <a href="#" className="block p-2 hover:bg-white hover:text-cerulean rounded-md">{menuOpen ? "Users" : <FaUsers />}</a>
-            <a href="#" className="block p-2 hover:bg-white hover:text-cerulean rounded-md">{menuOpen ? "Request" : <VscGitPullRequestNewChanges />}</a>
-            <a href="#" className="block p-2 hover:bg-white hover:text-cerulean rounded-md">{menuOpen ? "Support" : <AiOutlineQuestionCircle />}</a>
+          <div className={`absolute left-0 text-white bg-deep-teal h-full p-3 mt-2 transform transition-all ease-in-out ${menuOpen ? 'w-80' : 'w-15'}`}>
+            <a href="#" className="block p-2 hover:bg-white hover:text-deep-teal rounded-md">{menuOpen ? "Dashboard" : <MdDashboard />}</a>
+            <a href="#" className="block p-2 hover:bg-white hover:text-deep-teal rounded-md">{menuOpen ? "Hostel" : <HiBuildingOffice />}</a>
+            <a href="#" className="block p-2 hover:bg-white hover:text-deep-teal rounded-md">{menuOpen ? "Users" : <FaUsers />}</a>
+            <a href="#" className="block p-2 hover:bg-white hover:text-deep-teal rounded-md">{menuOpen ? "Request" : <VscGitPullRequestNewChanges />}</a>
+            <a href="#" className="block p-2 hover:bg-white hover:text-deep-teal rounded-md">{menuOpen ? "Support" : <AiOutlineQuestionCircle />}</a>
           </div>
         </button>
       </div>

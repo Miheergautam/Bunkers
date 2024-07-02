@@ -16,7 +16,7 @@ function Universities() {
   return (
     <div className="bg-gray-100 py-8">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-cerulean">Our Partners</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-deep-teal">Our Partners</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Map through universities and render Universitycard */}
           {universities.map((university, index) => (

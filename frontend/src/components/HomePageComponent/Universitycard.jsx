@@ -8,7 +8,7 @@ function Universitycard({ name, src }) {
       minHeight: '300px', // Example styling for the card
       padding: '15px',    // Example padding for the card
     }}>
-      <p className='text-gray-100 text-xs mt-60 font-bold p-2 rounded-lg bg-mist'>{name}</p>
+      <p className='text-deep-teal border border-deep-teal text-xs mt-60 font-medium p-2 rounded-lg bg-soft-green'>{name}</p>
     </div>
   );
 }
